@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #000000 url("architecture-buildings-business-374870optimized.jpg") no-repeat center;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 5em;
+  background-color: #4c5066;
+  box-shadow: 5px 5px 40px #000000;
+  margin: 3em;
+}
+h1{
+  font-size: 2em;
+  color: #e4e4e4;
+  font-family: 'Source Serif Pro', serif;
+}
+h2{
+  font-size: 3.5em;
+  font-family: 'Sarpanch', sans-serif;
+  color: #f5b102;
+}
+h3{
+  font-size: 1.3em;
+}
+
+.box{
+  margin-left: 4em;
+  text-align: center;
+}
+h3{
+  margin-top: 1em;
+}
+a{
+  color: #dfdfdf;
+}
+a:hover{
+  color: #bbbbbb;
+}
+
+p{
+  font-size: 1.2em;
+}
