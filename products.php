@@ -396,6 +396,7 @@ $page = 'Products';
         var modalContent = document.getElementById(id)
         modalContent.style.display = 'flex';
         //close
+        // FIXME: modals not closing unless changed to ...ssName("close")[0];
         var span = document.getElementsByClassName("close");
         span.onclick = function() {
           modalContent.style.display = "none";
