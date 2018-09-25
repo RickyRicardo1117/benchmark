@@ -43,10 +43,11 @@ $page = 'Products';
           <li onclick="modal('modal1')" >T-shirts</li>
           <li onclick="modal('modal2')" >Pens</li>
           <li onclick="modal('modal3')" >Mugs</li>
-          <li onclick="modal('modal4')" >Key Chains</li>
+          <!--<li onclick="modal('modal4')" >Key Chains</li>-->
           <li onclick="modal('modal5')" >Calendars</li>
           <li onclick="modal('modal19')" >Business Cards</li>
           <li onclick="modal('modal21')" >Magnets</li>
+          <li onclick="modal('modal22')" >Flyers and Brochures</li>
         </ul>
 
         <h3>Art Reproduction/Gicl&eacute;e</h3>
@@ -85,27 +86,27 @@ $page = 'Products';
         <p>Whether it's your car or fridge, show off your design with custom magnets.</p>
       </div>
       <div class="featured-item">
-        <img src="images\business-card-card-thumbnail.jpg" alt="Magnets">
+        <img src="images\business-card-card-thumbnail.jpg" alt="Business Cards">
         <h4>Business Cards</h4>
         <p>Order high quality business cards available in multiple paper stocks. We offer linen, matte, glossy, super thick, colored edges and much more.</p>
       </div>
       <div class="featured-item">
-        <img src="images/pens.jpg" alt="Magnets">
+        <img src="images/pens.jpg" alt="Pens">
         <h4>Pens</h4>
         <p>Pens are always needed and in constant use, so why not us them to promote your brand or company. Available in multiple colors and inks. Contact now to order.</p>
       </div>
       <div class="featured-item">
-        <img src="images/t-shirt.jpg" alt="Magnets">
+        <img src="images/t-shirt.jpg" alt="Shirts">
         <h4>T-shirts</h4>
         <p>Our t-shirts come in an array of colors with multiple sizes to show off your unique design. Create a shirt for one, or for a whole company!</p>
       </div>
       <div class="featured-item">
-        <img src="images/stamps.jpg" alt="Magnets">
+        <img src="images\fromBenchmark\stamps.jpg" alt="Stamps">
         <h4>Stamps</h4>
         <p>Custom stamps that showcases off perfect calligraphy, a stylish logo, or a stamp of your favorite dog. Get in touch now to see what we can do for you.</p>
       </div>
       <div class="featured-item">
-        <img src="images/name-badge.jpg" alt="Magnets">
+        <img src="images\name-badge-styles.jpg" alt="Name Badges">
         <h4>Name Badges</h4>
         <p>Create professional name Badges that can be attached in a variety of ways in a variety of sizes. Learn more today.</p>
       </div>
@@ -119,12 +120,12 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>T-shirts</h4>
-          <span class="close">&#x2715;</span>
-
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="images\t-shirt.jpg" alt="T-shirt">
-          <p>Our t-shirts come in an array of colors with multiple sizes to show off your unique design. Create a shirt for one, or for a whole company!</p>
+          <p>Our t-shirts come in an array of colors with multiple sizes to show off your unique design. Create a shirt for one, or for a whole company!
+          <br><span class="link"><a href="images\flyers\BLUE TEE SHIRTS.jpg">More info on T-shirts </a><br> <a href="images\flyers\GOLF SHIRT.jpg">More info on Polo shirts </a></span></p>
         </div>
       </div>
     </div>
@@ -132,11 +133,12 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Pens</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="images/pens.jpg" alt="Pens">
-          <p>Pens are always needed and in constant use, so why not us them to promote your brand or company. Available in multiple colors and inks. Contact now to order. <br><span class="link">More Info</span> </p>
+          <p>Pens are always needed and in constant use, so why not us them to promote your brand or company. Available in multiple colors and inks. Contact now to order.
+          <br><span class="link"><a href="images\flyers\benchmarkpenspricingNEW15.pdf"> Click for pricing and styles</a></span> </p>
         </div>
       </div>
     </div>
@@ -144,20 +146,22 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Mugs</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="images/mug.jpg" alt="Mug">
-          <p>Mugs make an excellent gift and we can add almost any photo to them, from a photo of your dog to a heart warming letter, contact us now to see what we can do for you.</p>
+          <p>Mugs make an excellent gift and we can add almost any photo to them, from a photo of your dog to a heart warming letter, contact us now to see what we can do for you.
+          <br><span class="link"><a href="images\flyers\TUMBLER CUP.jpg">More info</a></span></p>
         </div>
       </div>
     </div>
+
 
     <div class="modal" id="modal4">
       <div class="modal-container">
         <div class="modal-header">
           <h4>Key Chains</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="" alt="No Photo">
@@ -170,7 +174,7 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Calendars</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="images\calendar.jpg" alt="Calendars">
@@ -183,7 +187,7 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Photos</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="images\alone-art-art-gallery-748778-optimized.jpg" alt="Art Gallery" width="200" height="200">
@@ -196,7 +200,7 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Fine Art</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="images/fine-art.jpg" alt="Stacked art">
@@ -209,7 +213,7 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Canvas</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="images\fromBenchmark\canvas-split-optimized.jpg" alt="Canvas art">
@@ -222,7 +226,7 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Acrylic and mounting</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="images\fromBenchmark\Direct-Acrylic-Standoffs-Corner-optimized.jpg" alt="Acrylic photo">
@@ -235,7 +239,7 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Print & Stick Fabric</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="" alt="Need photo">
@@ -248,7 +252,7 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Banners</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="" alt="Need photo">
@@ -261,11 +265,12 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Business Cards</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="images\business-card-card-thumbnail.jpg" alt="Business Cards">
-          <p>Order high quality business cards available in multiple paper stocks. We offer linen, matte, glossy, super thick, colored edges and much more.</p>
+          <p>Order high quality business cards available in multiple paper stocks. We offer linen, matte, glossy, super thick, colored edges and much more.
+          <br><span class="link"><a href="images\flyers\Business Card Magnet Flyer (2).pdf">More info on Business card magnets</a></span></p>
         </div>
       </div>
     </div>
@@ -274,7 +279,7 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Yard signs</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="images\yard-signs.jpg" alt="Yard signs">
@@ -287,7 +292,7 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Custom signs</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="images\custom-signs.jpg" alt="Wall signs">
@@ -300,7 +305,7 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Pop Up Banners</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="images\fromBenchmark\bannerWithStand.jpg" alt="No Photo">
@@ -313,11 +318,11 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Name Badges</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="images\name-badge.jpg" alt="Name Badge">
-          <p>Create professional name Badges that can be attached in a variety of ways in a variety of sizes. Learn more today.<br>Available engraved and colored <br> <span class="link"><a href="images\flyers\flyer name bages.pdf" target="_blank">More info</a></span>  </p>
+          <p>Create professional name Badges that can be attached in a variety of ways in a variety of sizes. Learn more today.<br>Available engraved and colored <br> <span class="link"><a href="images\name-badge-styles.jpg">More info</a></span>  </p>
         </div>
       </div>
     </div>
@@ -326,7 +331,7 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Name Plates</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="images\name-plate.jpg" alt="Name Plate">
@@ -339,11 +344,11 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Custom Stamps</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
-          <img src="images\stamps.jpg" alt="Stamps">
-          <p>Custom stamps that showcases off perfect calligraphy, a stylish logo, or a stamp of your favorite dog. Get in touch now to see what we can do for you.</p>
+          <img src="images\fromBenchmark\stamps.jpg" alt="Stamps">
+          <p>Custom stamps that showcases off perfect calligraphy, a stylish logo, or a stamp of your favorite dog. Get in touch now to see what we can do for you. <br> <span class="link"><a href="images\flyers\stamp_flyer2-1.pdf" target="_blank">More info</a> </span></p>
         </div>
       </div>
     </div>
@@ -352,7 +357,7 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Checks and deposit</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="images\fromBenchmark\checks.jpg" alt="Checks">
@@ -368,13 +373,28 @@ $page = 'Products';
       <div class="modal-container">
         <div class="modal-header">
           <h4>Magnets</h4>
-          <span class="close">&#x2715;</span>
+          <!--<span class="close">&#x2715;</span>-->
         </div>
         <div class="modal-content">
           <img src="images\nfl-magnets-thumbnail.jpg" alt="Magnets">
           <p>Whether it's your car or fridge, show off your design with custom magnets.
           <br> <span class="link"><a href="images\flyers\Business Card Magnet Flyer (2).pdf" target="_blank">Business card magnets</a> </span>
           <br> <span class="link"><a href="images\flyers\NFL Magnet.pdf" target="_blank">NFL Magnets</a> </span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal22">
+      <div class="modal-container">
+        <div class="modal-header">
+          <h4>Flyers and Brochures</h4>
+          <!--<span class="close">&#x2715;</span>-->
+        </div>
+        <div class="modal-content">
+          <img src="images\fromBenchmark\brochure-gallery-0351.jpg" alt="Brochures">
+          <p>Our custom brochures come in multiple folding styles and multiple sizes. Help your customers with our easy to read brochures and flyers.
+          <br> <span class="link"><a href="images\fromBenchmark\bruchure-styles.jpg">More info</a> </span>
           </p>
         </div>
       </div>

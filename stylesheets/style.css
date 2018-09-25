@@ -617,19 +617,14 @@ aside ul li:hover #box1{
   width: 100%;
   height: 100%;
   overflow: auto;
-}
-
-.modal:target{
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .modal-container{
-  flex: 1;
   background-color: white;
   max-width: 500px;
-
   display: flex;
   flex-flow: row wrap;
 }
@@ -853,6 +848,6 @@ input[type=submit]{
 
 
 
-#modal1, #modal2, #modal3, #modal4, #modal5, #modal6, #modal7, #modal8, #modal9, #modal10, #modal11, #modal12, #modal13, #modal14, #modal15, #modal16, #modal17, #modal18, #modal19, #modal20, #modal21{
+#modal1, #modal2, #modal3, #modal4, #modal5, #modal6, #modal7, #modal8, #modal9, #modal10, #modal11, #modal12, #modal13, #modal14, #modal15, #modal16, #modal17, #modal18, #modal19, #modal20, #modal21, #modal22{
   display: none;
 }

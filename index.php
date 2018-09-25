@@ -61,8 +61,8 @@ $page = 'Home'
 
     <main>
 
+      <a href="products.php">
       <div class="summary">
-
         <div class="summary-box">
           <img src="images/icons8-print-100.png" alt="Printer Icon">
           <div class="summary-box-words">
@@ -70,22 +70,28 @@ $page = 'Home'
             <p>Whether you're working on a large-scale project requiring precision or simply need a new letterhead, we can help. Thanks to our KIP 7970, KIP 9000, and KIP 940 machines, we produce high definition, professional-quality prints at lightning speed.</p>
           </div>
         </div>
+      </a>
 
-        <div class="summary-box">
-          <img src="images\icons8-drawing-compass-100.png" alt="Compass icon">
-          <div class="summary-box-words">
-            <h4>Office Supplies</h4>
-            <p>We offer over 30,000 office supplies for you and your employees. Keep you office stocked and ready for business at all times thanks to free, next-day delivery, or peruse our selection of furniture to spruce up the workplace and breakroom.</p>
+        <a href="http://www.go-benchmark.com/" target="_blank">
+          <div class="summary-box">
+            <img src="images\icons8-drawing-compass-100.png" alt="Compass icon">
+            <div class="summary-box-words">
+              <h4>Office Supplies</h4>
+              <p>We offer over 30,000 office supplies for you and your employees. Keep you office stocked and ready for business at all times thanks to free, next-day delivery, or peruse our selection of furniture to spruce up the workplace and breakroom.</p>
+            </div>
           </div>
-        </div>
+        </a>
 
-        <div class="summary-box">
-          <img src="images\icons8-wallpaper-roll-100.png" alt="Wide Format printing icon">
-          <div class="summary-box-words">
-            <h4>Wide Format Printing</h4>
-            <p>Poster-sized large scale color prints are now available! Wide format projects can be created from any image in digital format or original print provided by you. Our high quality scanners faithfully reproduce every line with stunning clarity.</p>
+        <a href="printing.php">
+          <div class="summary-box">
+            <img src="images\icons8-wallpaper-roll-100.png" alt="Wide Format printing icon">
+            <div class="summary-box-words">
+              <h4>Wide Format Printing</h4>
+              <p>Poster-sized large scale color prints are now available! Wide format projects can be created from any image in digital format or original print provided by you. Our high quality scanners faithfully reproduce every line with stunning clarity.</p>
+            </div>
           </div>
-        </div>
+        </a>
+
       </div>
 
       <div class="shortcut">
@@ -126,7 +132,7 @@ $page = 'Home'
         <h4><b>About Us</b></h4>
         <p>Benchmark Blueprinting is a family owned business that has proudly been serving the Manatee and Sarasota Counties since 1986.  We are dedicated to bringing you the highest quality products at the best possible price, and pride ourselves on our excellent customer service. Contact us to see how we can help you and your business!
         </p>
-        <a href="#"><button type="button" name="button">Contact Now</button> </a>
+        <a href="contact.php"><button type="button" name="button">Contact Now</button> </a>
       </div>
     </main>
     <?php include 'include/footer.php'; ?>
